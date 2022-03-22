@@ -1,6 +1,8 @@
 <template>
-  <h2>Component RandomColorBox</h2>
-  <div v-on:click="getNewColor" :style="colorBoxStyle" id="random">Click me to change the color
+  <div id="random_color_box">
+    <h2>Component RandomColorBox</h2>
+    <div v-on:click="getNewColor" :style="colorBoxStyle" id="random">Click me to change the color
+    </div>
   </div>
 </template>
 
@@ -10,14 +12,14 @@
     props: {
       msg: String
     },
-    data(){
-       return{
-         colors: ["red", "green", "yellow", "blue"],
-         colorBoxStyle:{
-            backgroundColor: "#16a085" 
-            },
-           }
-         },
+    data() {
+      return {
+        colors: ["red", "green", "yellow", "blue"],
+        colorBoxStyle: {
+          backgroundColor: "#16a085"
+        },
+      }
+    },
     methods: {
       getNewColor: function () {
         let random = Math.floor(Math.random() * this.colors.length);

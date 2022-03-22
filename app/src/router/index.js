@@ -2,6 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 import Home from "@/views/HomePage.vue";
 import About from "@/views/AboutPage.vue";
 import Components from "@/views/Components.vue";
+import NotFound from "@/views/NotFound.vue";
 
 const routes = [
   {
@@ -19,10 +20,14 @@ const routes = [
     name: "Components",
     component: Components,
   },
+  {
+    path: "/:catchAll(.*)",
+    component: NotFound,
+  },
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory("/fun-with-vue/"),
   routes,
 });
 

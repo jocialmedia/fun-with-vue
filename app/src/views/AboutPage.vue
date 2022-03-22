@@ -1,16 +1,18 @@
 <template>
-<h1>This is About</h1>
+  <div class="container">
+    <div class="row">
+      <h1>This is About</h1>
+    </div>
+  </div>
 </template>
 
 <script>
-
-export default {
-  name: 'AboutPage',
-  components: {
+  export default {
+    name: 'AboutPage',
+    components: {}
   }
-}
 </script>
 
 <style>
-#app {}
+  #app {}
 </style>

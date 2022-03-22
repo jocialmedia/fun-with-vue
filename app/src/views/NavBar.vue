@@ -2,7 +2,7 @@
     <div id="nav">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="/">Fun with Vue</a>
+               <router-link class="navbar-brand" to="/">Fun with Vue</router-link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -11,21 +11,19 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Home</a>
+                            <router-link class="nav-link" to="/">Home</router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/about">About</a>
+                            <router-link class="nav-link" to="/about">About</router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/components">Components</a>
+                            <router-link class="nav-link" to="/components">Components</router-link>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-<router-link to="/">Home</router-link> | <router-link to="/about">About</router-link> | <router-link to="/components">Components</router-link>
     </div>
-
 
 <router-view />
 </template>

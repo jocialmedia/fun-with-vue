@@ -19,6 +19,9 @@
                         <li class="nav-item">
                             <router-link class="nav-link" to="/components">Components</router-link>
                         </li>
+                        <li class="nav-item">
+                            <router-link class="nav-link" to="/lifecycle">Lifecycle Hooks</router-link>
+                        </li>
                     </ul>
                 </div>
             </div>

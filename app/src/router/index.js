@@ -2,6 +2,7 @@ import { createWebHashHistory, createRouter } from "vue-router";
 import Home from "@/views/HomePage.vue";
 import About from "@/views/AboutPage.vue";
 import Components from "@/views/Components.vue";
+import Lifecycle from "@/views/LifecycleHookPage.vue";
 import NotFound from "@/views/NotFound.vue";
 
 const routes = [
@@ -19,6 +20,11 @@ const routes = [
     path: "/components",
     name: "Components",
     component: Components,
+  },
+  {
+    path: "/lifecycle",
+    name: "Lifecycle",
+    component: Lifecycle,
   },
   {
     path: "/:catchAll(.*)",

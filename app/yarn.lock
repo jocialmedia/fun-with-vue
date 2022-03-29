@@ -5904,6 +5904,11 @@ vue@^3.2.13:
     "@vue/server-renderer" "3.2.31"
     "@vue/shared" "3.2.31"
 
+vuejs-storage@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/vuejs-storage/-/vuejs-storage-3.1.0.tgz#c65d55fa0287f3ac2df6388124b4b9025ce28abb"
+  integrity sha512-Xctkv9hSDaVRHcCJEvqQuBPdnXn4AI1GRXhJxTCR3MiudWlZZEXXPAmk0SEGtitlst1Pn2BR3VotgtNNjt0nxQ==
+
 watchpack@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-2.3.1.tgz#4200d9447b401156eeca7767ee610f8809bc9d25"

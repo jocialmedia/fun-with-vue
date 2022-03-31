@@ -1,6 +1,7 @@
 import { createWebHashHistory, createRouter } from "vue-router";
 import Home from "@/views/HomePage.vue";
 import Components from "@/views/Components.vue";
+import FormPage from "@/views/FormPage.vue";
 import StoragePage from "@/views/StoragePage.vue";
 import Lifecycle from "@/views/LifecycleHookPage.vue";
 import About from "@/views/AboutPage.vue";
@@ -23,11 +24,16 @@ const routes = [
     component: Lifecycle,
   },
   {
+    path: "/form",
+    name: "FormPage",
+    component: FormPage,
+  },
+  {
     path: "/storage",
     name: "Storage",
     component: StoragePage,
   },
-  {
+   {
     path: "/about",
     name: "About",
     component: About,

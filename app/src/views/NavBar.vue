@@ -14,6 +14,9 @@
                             <router-link class="nav-link" to="/">Home</router-link>
                         </li>
                         <li class="nav-item">
+                            <router-link class="nav-link" to="/form">Form</router-link>
+                        </li>
+                        <li class="nav-item">
                             <router-link class="nav-link" to="/storage">Storage</router-link>
                         </li>
                         <li class="nav-item">
